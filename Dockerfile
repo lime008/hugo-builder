@@ -17,6 +17,6 @@ RUN tar -xf /tmp/${HUGO_ID}_Linux-64bit.tar.gz -C /tmp \
 RUN apk add --update git asciidoctor libc6-compat libstdc++ \
     && apk upgrade \
     && apk add --no-cache ca-certificates \
-	&& apk add nodejs
+	&& apk add nodejs yarn
 
 CMD /usr/local/sbin/hugo --source="/src" --destination="/output"
