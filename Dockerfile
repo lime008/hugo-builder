@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ENV HUGO_VERSION=0.63.2
+ENV HUGO_VERSION=0.67.0
 
 ENV HUGO_TYPE=_extended
 
